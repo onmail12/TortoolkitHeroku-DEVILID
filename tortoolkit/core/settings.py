@@ -111,7 +111,7 @@ async def handle_setting_callback(e):
         mmes = await e.get_message()
         await handle_settings(mmes,True,session_id=session_id)
     elif cmd[1] == "rcloneconfig":
-        await e.answer("Sned the rclone config file which you have generated.",alert=True)
+        await e.answer("Send the rclone config file which you have generated.",alert=True)
         mmes = await e.get_message()
         await mmes.edit(f"{mmes.raw_text}\n/ignore to go back",buttons=None)
         val = await get_value(e,True)
