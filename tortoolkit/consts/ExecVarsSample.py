@@ -11,13 +11,13 @@ except:
         BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001219425224,1329541902]
+        ALD_USR = [-1001312444090,1329541902]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1600000000
+        TG_UP_LIMIT = 1700000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
